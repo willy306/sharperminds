@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SharperMinds</title>
+  <link rel="stylesheet" href="style.css" /
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to SharperMinds</h1>
+    <p>Your place to get doubts cleared.</p>
+    <a href="/doubt" class="btn">Ask a Doubt</a>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ask a Doubt - SharperMinds</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Submit Your Doubt</h2>
+    <form action="/submit-doubt" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="doubt" placeholder="Type your doubt here..." required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <a href="/" class="back-link">Back to Homepage</a>
+  </div>
+</body>
+</html>
